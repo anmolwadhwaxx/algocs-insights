@@ -56,11 +56,6 @@ def submit_query_to_google_form(query, response, file_name):
     response = requests.post(form_url, data=form_data)
     return response
 
-def display_pdf(pdf):
-    base64_pdf = base64.b64encode(pdf.read()).decode('utf-8')
-    pdf_display = f'<embed src="data:application/pdf;base64,{base64_pdf}" width="700" height="400" type="application/pdf">'
-    st.markdown(pdf_display, unsafe_allow_html=True)
-
 def main():
     col1, col2 = st.columns([1, 8])
     with col1:
