@@ -33,7 +33,6 @@ fixed_questions = [
 
 # Sidebar contents
 with st.sidebar:
-    st.image("https://media.licdn.com/dms/image/C4D0BAQFdkOo6zVChpg/company-logo_200_200/0/1643229584971/algocs_logo?e=2147483647&v=beta&t=hgON4E4NsV_YqnoT53ujIkbt_f-0qRFpeM-tWAiPPhM", width=200)  # Adjust the width as needed
     st.title('Algocs PDF Insights')
     st.markdown('''
     ## About
