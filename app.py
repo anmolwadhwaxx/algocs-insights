@@ -86,7 +86,6 @@ def main():
 
     # Process the PDF file
     if pdf is not None:
-        display_pdf(pdf)
 
         pdf_reader = PdfReader(pdf)
         text = ""
